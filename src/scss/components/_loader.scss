@@ -1,0 +1,49 @@
+.loader {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background-color: #fff;
+  display: none;
+}
+
+.loader__wrapper {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  & > h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+.loader-content {
+  max-width: 600px;
+
+  position: relative;
+
+  color: #000000;
+
+  & > button {
+    margin-top: 40px;
+    padding: 14px 18px;
+
+    color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+
+    background-color: #000000;
+  }
+
+  & > address {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+  }
+}

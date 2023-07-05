@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap");
+
+body {
+  min-height: 100vh;
+  padding: 20px;
+
+  position: relative;
+
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+
+  background: url(../../assets/img/man-women.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.block {
+  display: block !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.none {
+  display: none !important;
+}
